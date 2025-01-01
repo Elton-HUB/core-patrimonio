@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "patrimonios",
+  "info": {
+    "singularName": "patrimonio",
+    "pluralName": "patrimonios",
+    "displayName": "patrimonio"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "id_patrimonio": {
+      "type": "uid"
+    },
+    "serial": {
+      "type": "string"
+    },
+    "tombo": {
+      "type": "string"
+    },
+    "origem": {
+      "type": "string"
+    },
+    "setor": {
+      "type": "string"
+    },
+    "funcionamento": {
+      "type": "string"
+    },
+    "quantidade": {
+      "type": "string"
+    },
+    "observacao": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "string"
+    },
+    "imagem": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "data_entrada": {
+      "type": "date"
+    }
+  }
+}
